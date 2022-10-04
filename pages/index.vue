@@ -16,7 +16,9 @@
           <v-img :src="image" alt="Yoga" />
         </div>
       </div>
-      <v-list style="background-color: transparent; position: relative; top: -85px">
+      <v-list
+        style="background-color: transparent; position: relative; top: -85px"
+      >
         <v-list-item-group>
           <v-subheader>INFO</v-subheader>
           <v-list-item v-for="(item, i) in items" :key="i">
@@ -29,7 +31,9 @@
           </v-list-item>
         </v-list-item-group>
       </v-list>
-      <v-list style="background-color: transparent; position: relative; top: -85px">
+      <v-list
+        style="background-color: transparent; position: relative; top: -85px"
+      >
         <v-list-item-group>
           <v-subheader>SOCIALS</v-subheader>
           <v-list-item v-for="(item, i) in socials" :key="i">
@@ -43,7 +47,16 @@
         </v-list-item-group>
       </v-list>
     </v-col>
-    <v-col>Des</v-col>
+    <v-col>
+      <ul>
+        <li>
+          Hai, saya Yoga Hermawan seorang Software Engineer dengan pengalaman
+          kurang lebih 4 th. Minat saya adalah tentang pembuatan atau
+          pengembangan sebuah aplikasi, saya juga sangat tertarik untuk menjadi
+          product manager.
+        </li>
+      </ul>
+    </v-col>
   </v-row>
 </template>
 
